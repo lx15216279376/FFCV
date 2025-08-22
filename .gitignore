@@ -143,5 +143,5 @@ cython_debug/
 .idea/
 
 # 不用同步数据集FFCV datasets
-/home/lenovo/ffcv/ffcv-main/examples/imagenet-example/ffcv-imagenet-main/datasets
-/home/lenovo/ffcv/ffcv-main/examples/cifar/dataset
+/home/lenovo/ffcv/ffcv-main/examples/imagenet-example/ffcv-imagenet-main/datasets/
+/home/lenovo/ffcv/ffcv-main/examples/cifar/dataset/

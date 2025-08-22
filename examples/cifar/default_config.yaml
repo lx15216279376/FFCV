@@ -1,0 +1,20 @@
+data:
+  gpu: 0
+  num_workers: 8
+  train_dataset: /tmp/cifar_train.beton
+  val_dataset: /tmp/cifar_test.beton
+  # train_dataset: /mnt/3fs/datasets/cifar10/nvidia_dali/train
+  # val_dataset: /mnt/3fs/datasets/cifar10/nvidia_dali/val
+  # train_dataset: /home/lenovo/ffcv/ffcv-main/examples/cifar/cifar10_images/cifar10_train.beton
+  # val_dataset: /home/lenovo/ffcv/ffcv-main/examples/cifar/cifar10_images/cifar10_test.beton
+training:
+  batch_size: 512
+  epochs: 24
+  lr: 0.5
+  momentum: 0.9
+  lr_peak_epoch: 5
+  momentum: 0.9
+  weight_decay: 5e-4
+  label_smoothing: 0.1
+  lr_tta: true
+  num_workers: 8

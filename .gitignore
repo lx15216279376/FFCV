@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 src
 __pycache__/
@@ -145,3 +146,6 @@ cython_debug/
 # 不用同步数据集FFCV datasets
 /examples/imagenet-example/ffcv-imagenet-main/datasets/
 /examples/cifar/dataset/
+=======
+/datasets/
+>>>>>>> 测试代码，添加了注释

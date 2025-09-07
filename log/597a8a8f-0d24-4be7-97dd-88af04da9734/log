@@ -1,0 +1,2 @@
+{"timestamp": 1756626167.069793, "relative_time": 1429.1116845607758, "current_lr": 0.24982533945686902, "top_1": 0.1354600042104721, "top_5": 0.32043999433517456, "val_time": 69.32574558258057, "epoch": 0}
+ python train_imagenet_pytorch.py --config-file rn18_configs/rn18_16_epochs.yaml --data.train_dataset=/mnt/mydata/lx/ILSVRC2012/train --data.val_dataset=/mnt/mydata/lx/ILSVRC2012/val --data.num_worker=12 --logging.folder=/home/liuxuan/FFCV-main/examples/imagenet-example/ffcv-imagenet-main/log
